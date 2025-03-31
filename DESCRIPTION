@@ -1,0 +1,20 @@
+Package: diceutils
+Type: Package
+Title: DICE Lab Utility Functions
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "William K.", "Petry",
+      email = "wpetry@ncsu.edu",
+      role = c("aut", "cre")
+    )
+  )
+Description: Miscellaneous R functions for DICE Lab workflows.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dplyr,
+    googledrive,
+    purrr
+RoxygenNote: 7.3.2
